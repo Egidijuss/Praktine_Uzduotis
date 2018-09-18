@@ -1,0 +1,48 @@
+<!-- Testavimas -->
+	<?php  
+
+	// $result_set = Auto::find_all_auto();
+	// while($row = mysqli_fetch_array($result_set)){
+	// 	echo $row['first_name'] . "<br />";
+	// }
+
+	// $autos = Auto::find_all_auto();
+	// foreach($autos as $auto){
+	// 	echo $auto->auto_name . "<br />";
+	// }
+
+	// $found_auto = Auto::find_auto_by_id(1);
+	// echo $found_auto->first_name;
+	// $auto = Auto::instantation($found_auto);
+	// echo $auto->auto_name;
+
+	// $auto = new Auto();
+
+	// $auto->id = $found_auto['id'];
+	// $auto->auto_name = $found_auto['auto_name'];
+	// $auto->first_name = $found_auto['first_name'];
+	// $auto->last_name = $found_auto['last_name'];
+
+	// echo $auto->auto_name;
+
+
+	// Create method test
+	// $auto = new Auto();
+
+	// $auto->first_name = "Example Firstname";
+	// $auto->last_name = "Example LastName";
+
+	// $auto->create();
+
+
+	// Update method test
+	// $auto = Auto::find_auto_by_id(3);
+	// $auto->first_name = "TESTAS";
+	// $auto->update();
+
+	// DELETE method test
+	// $auto = Auto::find_auto_by_id(3);
+	// $auto->delete();
+
+
+	?>
